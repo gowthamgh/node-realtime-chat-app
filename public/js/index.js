@@ -6,10 +6,10 @@ var socket = io();
       
     });
 
-    socket.emit('createMessage', {
-        from: 'gowthamsm26@gmail.com',
-        text: 'Hey, good to go'
-    });
+    // socket.emit('createMessage', {
+    //     from: 'gowthamsm26@gmail.com',
+    //     text: 'Hey, good to go'
+    // });
     
     socket.on('disconnect', function() {
       console.log('Disconnected from server');
